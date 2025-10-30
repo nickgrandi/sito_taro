@@ -601,6 +601,15 @@ strong {
   .timeline-icon {
     line-height: 75px;
   }
+  
+  .timeline h3 {
+    font-size: 1rem;
+  }
+
+  .timeline p {
+    font-size: 0.875rem;
+  }
+
 }
 
 @media (max-width: 575px) {
