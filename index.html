@@ -144,7 +144,8 @@
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="contactDropdown">
                                         <li>
-                                            <a class="dropdown-item d-flex align-items-center" href="tel:+39 3347919308">
+                                            <a class="dropdown-item d-flex align-items-center"
+                                                href="tel:+39 3347919308">
                                                 <i class="fa-solid fa-phone me-2 bi-telephone"></i>
                                                 Telefono
                                             </a>
@@ -816,8 +817,8 @@
 
             </div>
         </section>
-        <footer class="d-flex justify-content-center align-items-center gap-3 py-3 flex-wrap text-center">
-            <!-- <span>
+        <!--<footer class="d-flex justify-content-center align-items-center gap-3 py-3 flex-wrap text-center">
+            <span>
                 <p>© Andrea Tarozzi Fisioterapista<span id="annoCorrente"></span></p>
             </span>
             <span>|</span>
@@ -827,14 +828,26 @@
             <span>|</span>
             <a href="/cookie-policy" class="text-decoration-underline">
                 <p>Cookie Policy</p>
-            </a>-->
-            <span>© Andrea Tarozzi Fisioterapista <span id="annoCorrente"></span> - Tutti i diritti riservati</span><br>
-            <span class="d-block mt-2">
-                <a href="#" class="text-decoration-underline me-3">Crediti</a>
-                <span>|</span>
-                <a href="#" class="text-decoration-underline">Cookie Policy</a>
-            </span>
+            </a>
+        </footer>-->
+        <footer class="text-center py-3">
+            <!-- Riga 1: Copyright -->
+            <div>
+                © Andrea Tarozzi Fisioterapista <span id="annoCorrente"></span>
+            </div>
+
+            <!-- Riga 2: Link separati -->
+            <div class="mt-2">
+                <span role="button" class="text-decoration-underline me-3" data-bs-toggle="modal"
+                    data-bs-target="#creditiModal">
+                    Crediti
+                </span>
+                <a href="/cookie-policy" class="text-decoration-underline">
+                    Cookie Policy
+                </a>
+            </div>
         </footer>
+
     </footer>
 
     <!-- JAVASCRIPT FILES -->
