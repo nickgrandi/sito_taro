@@ -66,3 +66,6 @@
     });
     
   })(window.jQuery);
+
+  //ANNO ATTUALE
+  document.getElementById("annoCorrente").textContent = new Date().getFullYear();
