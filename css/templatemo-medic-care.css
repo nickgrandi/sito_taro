@@ -939,3 +939,14 @@ strong {
     left: 42px;
   }
 }
+
+/*---------------------------------------
+AGGIUNTE PERSONALIZZATE             
+-----------------------------------------*/
+
+.footer-text {
+  color: var(--p-color);
+  font-size: var(--p-font-size);
+  font-weight: var(--font-weight-light);
+  letter-spacing: 0.5px;
+}
