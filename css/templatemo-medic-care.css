@@ -961,3 +961,16 @@ AGGIUNTE PERSONALIZZATE
     background-color: #e64a19;
     border-color: #e64a19;
 }
+
+#contact {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.footer-text {
+  margin-top: 60px; /* aumenta la distanza dal contenuto sopra */
+  font-size: var(--p-font-size);
+  color: var(--p-color);
+  font-weight: var(--font-weight-light);
+  letter-spacing: 0.5px;
+}
