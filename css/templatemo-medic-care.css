@@ -601,7 +601,7 @@ strong {
   .timeline-icon {
     line-height: 75px;
   }
-  
+
   .timeline h3 {
     font-size: 1rem;
   }
@@ -952,14 +952,15 @@ AGGIUNTE PERSONALIZZATE
 }
 
 .my-close-btn {
-    background-color: #ff5722; /* colore personalizzato */
-    color: #fff;
-    border-color: #ff5722;
+  background-color: #0098AA;
+  /* colore personalizzato */
+  color: #fff;
+  border-color: #0098AA;
 }
 
 .my-close-btn:hover {
-    background-color: #e64a19;
-    border-color: #e64a19;
+  background-color: #007F8F;
+  border-color: #007F8F;
 }
 
 #contact {
@@ -968,9 +969,22 @@ AGGIUNTE PERSONALIZZATE
 }
 
 .footer-text {
-  margin-top: 60px; /* aumenta la distanza dal contenuto sopra */
+  margin-top: 60px;
+  /* aumenta la distanza dal contenuto sopra */
   font-size: var(--p-font-size);
   color: var(--p-color);
   font-weight: var(--font-weight-light);
   letter-spacing: 0.5px;
+}
+
+.custom-contact-btn {
+  background-color: #0098AA;
+  /* colore personalizzato */
+  color: #fff;
+  border-color: #0098AA;
+}
+
+.custom-contact-btn:hover {
+  background-color: #007F8F;
+  border-color: #007F8F;
 }
