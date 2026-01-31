@@ -988,3 +988,10 @@ AGGIUNTE PERSONALIZZATE
   background-color: #007F8F;
   border-color: #007F8F;
 }
+
+.custom-contact-btn.show,
+.custom-contact-btn:focus,
+.custom-contact-btn:active {
+  background-color: #0098AA !important;
+  border-color: #0098AA !important;
+}
