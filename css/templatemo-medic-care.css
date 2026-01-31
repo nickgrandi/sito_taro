@@ -950,3 +950,14 @@ AGGIUNTE PERSONALIZZATE
   font-weight: var(--font-weight-light);
   letter-spacing: 0.5px;
 }
+
+.my-close-btn {
+    background-color: #ff5722; /* colore personalizzato */
+    color: #fff;
+    border-color: #ff5722;
+}
+
+.my-close-btn:hover {
+    background-color: #e64a19;
+    border-color: #e64a19;
+}
