@@ -917,6 +917,16 @@
             </div>
         </div>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Chiudi tutti gli accordion al caricamento
+            document.querySelectorAll('.accordion-collapse.show').forEach(function (el) {
+                var bsCollapse = new bootstrap.Collapse(el, { toggle: false });
+                bsCollapse.hide();
+            });
+        });
+    </script>
 </body>
 
 </html>
