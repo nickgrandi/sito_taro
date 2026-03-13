@@ -997,14 +997,4 @@ AGGIUNTE PERSONALIZZATE
   border-color: #0098AA !important;
 }
 
-/* Colore quando l’accordion è aperto */
-.accordion-button:not(.collapsed) {
-    background-color: #0098AA;   /* blu */
-    color: #fff;                 /* testo bianco */
-}
-
-/* Evita che Bootstrap aggiunga l’ombra */
-.accordion-button:focus {
-    box-shadow: none;
-}
 
