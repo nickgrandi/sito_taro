@@ -997,4 +997,10 @@ AGGIUNTE PERSONALIZZATE
   border-color: #0098AA !important;
 }
 
+.contatti-social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* allinea tutto a destra */
+    text-align: right;     /* allinea anche il testo */
+}
 
