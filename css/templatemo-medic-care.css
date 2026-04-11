@@ -998,8 +998,8 @@ AGGIUNTE PERSONALIZZATE
 }
 
 .featured-circle {
-    width: 230px;
-    height: 230px;
+    width: 300px;        /* cerchio più grande */
+    height: 300px;
     border-radius: 50%;
     overflow: hidden;
     position: relative;
@@ -1009,12 +1009,13 @@ AGGIUNTE PERSONALIZZATE
 
 .featured-circle img {
     position: absolute;
-    top: 10%;          /* abbassa la testa */
+    top: 18%;            /* abbassa la foto → si vede più maglia */
     left: 50%;
     transform: translateX(-50%);
-    width: 120%;       /* riduce lo zoom */
+    width: 105%;         /* meno zoom → niente testa tagliata */
     height: auto;
 }
+
 
 
 
