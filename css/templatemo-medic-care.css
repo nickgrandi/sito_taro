@@ -998,15 +998,24 @@ AGGIUNTE PERSONALIZZATE
 }
 
 .featured-circle {
+    width: 230px;
+    height: 230px;
     border-radius: 50%;
     overflow: hidden;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* ombra elegante */
 }
 
 .featured-circle img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 115%;          /* riduce lo zoom → niente sfocatura */
+    height: auto;
+    object-fit: cover;    /* mantiene il cerchio pieno */
+    transform: translateY(4%); /* abbassa leggermente la foto */
 }
+
 
 
 
