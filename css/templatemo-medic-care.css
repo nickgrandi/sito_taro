@@ -849,10 +849,14 @@ strong {
     padding-bottom: 10px;
   }
 
-.hero .container {
+  /*.hero .container {
+    height: inherit;
+  }*/
+
+  .hero .container {
   position: relative;
   overflow: hidden;
-  height: 750px; /* aumenta qui */
+  min-height: 60vh; /* hero più alta ma fluida */
 }
 
   .heroText {
@@ -1018,39 +1022,9 @@ AGGIUNTE PERSONALIZZATE
     height: auto;
 }
 
-/* Desktop */
 #myCarousel img {
-    height: 750px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-
-/* Tablet */
-@media (max-width: 992px) {
-  .hero .container {
-      height: 500px;
-  }
-  #myCarousel img {
-      height: 500px;
-  }
-}
-
-/* Mobile grande */
-@media (max-width: 768px) {
-  .hero .container {
-      height: 350px;
-  }
-  #myCarousel img {
-      height: 350px;
-  }
-}
-
-/* Mobile piccolo */
-@media (max-width: 576px) {
-  .hero .container {
-      height: 260px;
-  }
-  #myCarousel img {
-      height: 260px;
-  }
-}
-
 
