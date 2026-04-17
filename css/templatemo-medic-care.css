@@ -1016,7 +1016,11 @@ AGGIUNTE PERSONALIZZATE
     height: auto;
 }
 
-
+#myCarousel img {
+    height: 580px;      /* stessa altezza del container */
+    width: 100%;
+    object-fit: cover;  /* riempie senza deformare */
+}
 
 
 
