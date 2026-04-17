@@ -854,7 +854,7 @@ strong {
     padding-bottom: 10px;
   }
 
-  .hero .container {
+  /*.hero .container {
     height: inherit;
   }
 
@@ -864,6 +864,20 @@ strong {
     left: 0;
     width: auto;
     margin-bottom: -100px;
+    padding: 2rem;
+  }*/
+  
+  /*nuovo codice */
+  .hero .container {
+    height: inherit;
+  }
+
+  .heroText {
+    position: relative;
+    bottom: 0;          /* era: bottom: 100px */
+    left: 0;
+    width: auto;
+    margin-bottom: 0;   /* era: margin-bottom: -100px */
     padding: 2rem;
   }
 
