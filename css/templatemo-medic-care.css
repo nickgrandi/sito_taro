@@ -1022,9 +1022,9 @@ AGGIUNTE PERSONALIZZATE
 }
 
 #toggleLink {
-    color: #0098AA; /* colore per "Mostra altro" */
+    color: #0098AA !important;/* colore per "Mostra altro" */
 }
 
 #toggleLink.open {
-    color: #0098AA; /* colore per "Mostra meno" */
+    color: #0098AA !important;/* colore per "Mostra meno" */
 }
