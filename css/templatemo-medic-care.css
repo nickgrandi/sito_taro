@@ -1016,10 +1016,32 @@ AGGIUNTE PERSONALIZZATE
     height: auto;
 }
 
+/* Desktop (rimane come ora) */
 #myCarousel img {
-    height: 580px;      /* stessa altezza del container */
+    height: 580px;
     width: 100%;
-    object-fit: cover;  /* riempie senza deformare */
+    object-fit: cover;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  #myCarousel img {
+      height: 420px;
+  }
+}
+
+/* Mobile grande */
+@media (max-width: 768px) {
+  #myCarousel img {
+      height: 320px;
+  }
+}
+
+/* Mobile piccolo */
+@media (max-width: 576px) {
+  #myCarousel img {
+      height: 240px;
+  }
 }
 
 
