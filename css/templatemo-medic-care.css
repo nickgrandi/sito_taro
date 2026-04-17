@@ -1021,3 +1021,10 @@ AGGIUNTE PERSONALIZZATE
     height: auto;
 }
 
+#toggleLink {
+    color: #0098AA; /* colore per "Mostra altro" */
+}
+
+#toggleLink.open {
+    color: #0098AA; /* colore per "Mostra meno" */
+}

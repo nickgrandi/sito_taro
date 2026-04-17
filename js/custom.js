@@ -69,3 +69,15 @@
 
   //ANNO ATTUALE
   document.getElementById("annoCorrente").textContent = new Date().getFullYear();
+
+  //collapse 
+const link = document.getElementById("toggleLink");
+const collapse = document.getElementById("moreText");
+
+collapse.addEventListener("shown.bs.collapse", () => {
+  link.textContent = "Mostra meno";
+});
+
+collapse.addEventListener("hidden.bs.collapse", () => {
+  link.textContent = "Mostra altro";
+});
