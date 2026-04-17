@@ -271,6 +271,13 @@ strong {
 -----------------------------------------*/
 .hero {
   padding-top: 0rem;
+/*nuova aggiunta*/
+  margin-bottom: 1.5rem;
+}
+
+#about {
+  margin-top: 0;
+}
 }
 
 .hero .container {
