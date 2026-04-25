@@ -478,11 +478,12 @@
                     data-bs-target="#creditiModal">
                     Crediti</span>
                 <span class="mx-2">|</span>
-                <a href="/cookie-policy" class="text-decoration-underline ms-2">
+                <!-- Cambiato da <a href="/cookie-policy"> a trigger modale -->
+                <span role="button" class="text-decoration-underline ms-2" data-bs-toggle="modal"
+                    data-bs-target="#cookieModal">
                     Cookie Policy
-                </a>
+                </span>
             </div>
-
         </footer>
 
     </footer>
@@ -494,15 +495,14 @@
     <script src="js/scrollspy.min.js"></script>
     <script src="js/custom.js"></script>
 
+    <!-- MODALE CREDITI -->
     <div class="modal fade" id="creditiModal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-
                 <div class="modal-header">
                     <h5 class="modal-title">Crediti</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
-
                 <div class="modal-body">
                     <div>
                         <p class="copyright-text">Copyright © Medic Care 2021
@@ -513,6 +513,62 @@
                         <p class="copyright-text">Edited By: <a href="https://www.linkedin.com/in/nicholas-grandi/"
                                 target="_parent">Nicholas Grandi</a></p>
                     </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary my-close-btn" data-bs-dismiss="modal">
+                        Chiudi
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODALE COOKIE POLICY -->
+    <div class="modal fade" id="cookieModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Informativa sui Cookie</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p class="text-muted small">
+                        Data di entrata in vigore: April 25, 2026 &nbsp;|&nbsp; Ultimo aggiornamento: April 25, 2026
+                    </p>
+
+                    <h5>Cosa sono i cookie?</h5>
+                    <p>La presente Informativa sui cookie spiega cosa sono i cookie, come li utilizziamo, i tipi di cookie che utilizziamo (ovvero le informazioni che raccogliamo utilizzando i cookie e come tali informazioni vengono utilizzate) e come gestire le impostazioni dei cookie.</p>
+                    <p>I cookie sono piccoli file di testo utilizzati per memorizzare piccole informazioni. Vengono memorizzati sul dispositivo dell'utente quando un sito web viene caricato nel browser. Questi cookie contribuiscono a garantire il corretto funzionamento del sito web, migliorano la sicurezza, offrono un'esperienza utente migliore e analizzano le prestazioni per identificare cosa funziona e dove sono necessari miglioramenti.</p>
+
+                    <h5>Come utilizziamo i cookie?</h5>
+                    <p>Come la maggior parte dei servizi online, il nostro sito web utilizza cookie di prima parte e di terze parti per vari scopi. I cookie di prima parte sono necessari principalmente per il corretto funzionamento del sito web e non raccolgono dati personali identificabili.</p>
+                    <p>I cookie di terze parti utilizzati sul nostro sito web ci aiutano principalmente a comprendere le prestazioni del sito web, a tracciare il modo in cui interagisce con esso, a garantire la sicurezza dei nostri servizi, a fornire annunci pubblicitari pertinenti e a migliorare la sua esperienza complessiva, ottimizzando al contempo la velocità delle sue interazioni future con il nostro sito web.</p>
+
+                    <h5>Tipi di cookie utilizzati</h5>
+                    <div class="cky-audit-table-element"></div>
+
+                    <h5 class="mt-3">Gestire le preferenze dei cookie</h5>
+                    <p>
+                        <a href="#" class="btn btn-sm btn-outline-secondary cky-banner-element">
+                            Preferenze relative al consenso
+                        </a>
+                    </p>
+                    <p>È possibile modificare le impostazioni dei cookie in qualsiasi momento facendo clic sul tasto "Preferenze di consenso" in alto. Ciò consentirà di visualizzare nuovamente il banner di consenso ai cookie e di aggiornare le proprie preferenze o revocare immediatamente il proprio consenso.</p>
+                    <p>Inoltre, diversi browser offrono vari metodi per bloccare ed eliminare i cookie utilizzati dai siti web. È possibile modificare le impostazioni del browser per bloccare o eliminare i cookie. Di seguito sono riportati i link ai documenti di assistenza su come gestire ed eliminare i cookie nei principali browser web.</p>
+
+                    <ul class="list-unstyled">
+                        <li><strong>Chrome:</strong> <a href="https://support.google.com/accounts/answer/32050" target="_blank" rel="noopener noreferrer">support.google.com</a></li>
+                        <li><strong>Safari:</strong> <a href="https://support.apple.com/en-in/guide/safari/sfri11471/mac" target="_blank" rel="noopener noreferrer">support.apple.com</a></li>
+                        <li><strong>Firefox:</strong> <a href="https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox" target="_blank" rel="noopener noreferrer">support.mozilla.org</a></li>
+                        <li><strong>Internet Explorer:</strong> <a href="https://support.microsoft.com/en-us/topic/how-to-delete-cookie-files-in-internet-explorer-bca9446f-d873-78de-77ba-d42645fa52fc" target="_blank" rel="noopener noreferrer">support.microsoft.com</a></li>
+                    </ul>
+
+                    <p class="text-muted small mt-3">
+                        Informativa sui cookie generata da
+                        <a href="https://www.cookieyes.com/" target="_blank" rel="noopener noreferrer">CookieYes</a>
+                    </p>
                 </div>
 
                 <div class="modal-footer">
